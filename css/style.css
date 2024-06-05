@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.description {
+    margin-bottom: 15px;
+}
+
+.description p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #ff6347;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+.nav-menu a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #444;
+}
+
+.nav-menu a:hover {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+/* Estilo responsivo para dispositivos móviles */
+@media (max-width: 600px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu li {
+        margin: 5px 0;
+    }
+
+    .nav-menu a {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
