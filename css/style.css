@@ -9,6 +9,18 @@ nav {
     background-color: #333;
     color: white;
     padding: 10px 20px;
+    text-align: center; /* Asegura que el contenido dentro del nav esté centrado */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    max-width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
 }
 
 .description {
@@ -37,14 +49,6 @@ nav {
     text-decoration: none;
     font-size: 1.1em;
     transition: color 0.3s ease;
-}
-
-.nav-menu a:hover {
-    color: #ff6347;
-}
-
-/* Estilos adicionales para mejorar la apariencia */
-.nav-menu a {
     padding: 10px 15px;
     border-radius: 5px;
     background-color: #444;
